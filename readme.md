@@ -12,6 +12,12 @@ and lost of HD wallet passphrase.
 
 ## Install
 
+### Install from homebrew
+```
+brew tap codeandplay/tap
+brew install sss
+```
+
 ### Install from source
 ```
 cargo install --path .
