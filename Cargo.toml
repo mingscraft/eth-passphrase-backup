@@ -1,0 +1,18 @@
+[package]
+name = "eth-passphrase-backup"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sharks = "0.5.0"
+sha2 = "0.10"
+clap= { version = "3", features = [ "derive" ] }
+colored = "2"
+
+[[bin]]
+name = "sss"
+path = "src/bin/run.rs"
+
+
