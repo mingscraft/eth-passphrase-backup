@@ -1,5 +1,5 @@
 # 🔐 Ethereum HD wallet passphase backup utilities 🔥
-Command tool to keep your Ethereume HD wallet passphrase safe and secure.
+Commandline tool to keep your Ethereume HD wallet passphrase safe and secure.
 
 The tool make use of [Shamir Secret Sharing](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing)
 to create backup of your hardware wallet in a secure way. The backup consits of multiple shares, so they can be stored in separate
