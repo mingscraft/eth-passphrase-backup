@@ -2,7 +2,7 @@
 Command tool to keep your Ethereume HD wallet passphrase safe and secure.
 
 The tool make use of [Shamir Secret Sharing](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing)
-to create backup of your hardware wallet in a secure way. The backup consits of multiple shares, and can be store in separate
+to create backup of your hardware wallet in a secure way. The backup consits of multiple shares, so they can be stored in separate
 locations. The goal to the tool is to mitigate risk of store the HD wallet passphrase in a single locations,
 and lost of HD wallet passphrase.
 
